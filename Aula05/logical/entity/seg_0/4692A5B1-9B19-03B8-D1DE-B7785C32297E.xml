@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4692A5B1-9B19-03B8-D1DE-B7785C32297E" name="ENDEREÇO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 12:29:31 UTC</createdTime>
+<ownerDesignName>Aula05</ownerDesignName>
+<engineerTo>
+<item key="F954848B-D285-1041-2F35-E19A61E53F77" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_restaurante1" id="5559950F-EB1F-30D7-384C-35CF3A40AC7C">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 12:54:26 UTC</createdTime>
+<generatorID>1202EFEC-9EE7-A0DE-C6BC-3F889FA5C859</generatorID>
+<ownerDesignName>Aula05</ownerDesignName>
+<engineerTo>
+<item key="F954848B-D285-1041-2F35-E19A61E53F77" value="true"/>
+</engineerTo>
+<referedAttribute>C09E67DD-F1E6-3C17-0B25-908EFF9B2DD1</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

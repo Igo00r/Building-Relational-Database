@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8D733B0A-AB1F-701B-3E44-4970C0529772" name="PRODUTOS">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 12:06:04 UTC</createdTime>
+<ownerDesignName>Aula05</ownerDesignName>
+<engineerTo>
+<item key="F954848B-D285-1041-2F35-E19A61E53F77" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_produto" id="AE33A3B0-BB94-307F-9661-F08127C59B5A">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 12:14:08 UTC</createdTime>
+<ownerDesignName>Aula05</ownerDesignName>
+<engineerTo>
+<item key="F954848B-D285-1041-2F35-E19A61E53F77" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pratos" id="CD355DF1-E341-5A95-926F-6F674CC26B6F">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 12:14:15 UTC</createdTime>
+<ownerDesignName>Aula05</ownerDesignName>
+<engineerTo>
+<item key="F954848B-D285-1041-2F35-E19A61E53F77" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_restaurante1" id="B443FE54-CE25-FC9A-41D0-601616DE85FB">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 12:54:26 UTC</createdTime>
+<generatorID>443BFC93-B83D-1CD9-BF45-4BF21E867138</generatorID>
+<ownerDesignName>Aula05</ownerDesignName>
+<engineerTo>
+<item key="F954848B-D285-1041-2F35-E19A61E53F77" value="true"/>
+</engineerTo>
+<referedAttribute>C09E67DD-F1E6-3C17-0B25-908EFF9B2DD1</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2F984DE1-18FC-B5D0-EA4B-EA9BCC07B582" name="PRODUTOS PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 12:14:46 UTC</createdTime>
+<ownerDesignName>Aula05</ownerDesignName>
+<engineerTo>
+<item key="F954848B-D285-1041-2F35-E19A61E53F77" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AE33A3B0-BB94-307F-9661-F08127C59B5A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
